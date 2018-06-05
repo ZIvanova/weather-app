@@ -1,0 +1,23 @@
+.weather-widget {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    background: #eee;
+    font: 1em sans-serif;
+    color: #444;
+}
+.widget-block {
+    text-align: center;
+}
+.weather-widget p,
+.weather-widget h2 {
+    display: inline-block;
+    padding:  10px 5px;
+}
+.widget-footer {
+    display: flex;
+}
+.widget-footer div {
+    flex:  1 1 auto;
+}
